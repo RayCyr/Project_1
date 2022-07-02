@@ -8,8 +8,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
   - _TODO: Enter the playbook file._
 
-This document contains the following details
-Description of the Topologu
+This document contains the following details                                                                                                         Description of the Topologu
 Access Policies
 ELK Configuration
 Beats in Use
