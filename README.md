@@ -1,39 +1,7 @@
+**Project 1**
 
-## Automated ELK Stack Deployment
+**Project contains the following:**
 
-The files in this repository were used to configure the network depicted below.
+1) Linux configuration scripts 
 
-![TODO: Update the path with the name of your diagram](Images/diagram_filename.png)
-
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
-
-  - _TODO: Enter the playbook file._
-
-This document contains the following details:
-- Description of the Topologu
-- Access Policies
-- ELK Configuration
-  - Beats in Use
-  - Machines Being Monitored
-- How to Use the Ansible Build
-
-
-### Description of the Topology
-
-The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
-
-Load balancing ensures that the application will be highly "available," in addition to restricting "overload" to the network.
-
-Load balancers protect "Availablity" 
-
-The advantage of a jump box is that a jumpbox allows for the secure adminstration of web servers.  
-
-Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the _____ and system _____.
-
-Filebeat watches for changes to files and when the changes were done.
-
--Metricbeat records metrics from the operating system and from services running on a server.
-
-The configuration details of each machine may be found below.
-_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
-
+*(I posted what I had; however, due to having to rebuild my system earlier some time after/or during the Linux modules, I don't have more scripts to provide with my project. A recommendation that I would like to pass on regarding future cohorts, is if a similar project is going to require scripts from a VM that has a history of having to be rebuilt, that future students would strongly  be encouraged to save their configuration scripts for a future project. I was among several students that had to rebuild their machines at least once during the boot camp. If my recommendation was communicated then I stand corrected and apologize for this unnecessary feedback.)*
