@@ -9,12 +9,12 @@ These files have been tested and used to generate a live ELK deployment on Azure
   - _TODO: Enter the playbook file._
 
 This document contains the following details
-1. Description of the Topology
-2. Access Policies
-3. ELK Configuration
--Beats in Use
--Machines Being Monitored
-4. How to Use the Ansible Build
+* Description of the Topology
+* Access Policies
+* ELK Configuration
+  * Beats in Use
+  * Machines Being Monitored
+* How to Use the Ansible Build
 
 
 ### Description of the Topology
@@ -23,17 +23,17 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 Load balancing ensures that the application will be highly **available**, in addition to restricting **overload** to the network.
 Load balancers protect **availablity** 
 
-Jump Box
-The advantage of a jump box is that a jumpbox allows for the **secure adminstration of web servers.**  
+**Jump Box**
+* The advantage of a jump box is a jumpbox allows for the **secure adminstration of web servers.**  
 
-Elk Server
-Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the _____ and system _____.
+**Elk Server**
+* Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the _____ and system _____.
 
-Filebeat
-Filebeat watches for changes to files and when the changes were done.
+**Filebeat**
+* Filebeat watches for changes to files and when the changes were done.
 
-Metric
--Metricbeat records metrics from the operating system and from services running on a server.
+**Metricbeat**
+* Metricbeat records metrics from the operating system and from services running on a server.
 
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
@@ -74,22 +74,29 @@ The following screenshot displays the result of running `docker ps` after succes
 ![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
 
 ### Target Machines & Beats
-This ELK server is configured to monitor the following machines:
-- _TODO: List the IP addresses of the machines you are monitoring_
 
-We have installed the following Beats on these machines:
-- _TODO: Specify which Beats you successfully installed_
+**This ELK server is configured to monitor the following machines:**
+* Web 1 10.0.0.5        
+* Web 2 10.0.0.6
+ 
+**The following Beats were installed on these machines:**
+* Filebeat
+* Metricbeat
 
-These Beats allow us to collect the following information from each machine:
+**These Beats allow us to collect the following information from each machine:
+
+* Filebeat allows for the collection of ________ . For exmpample, the cybersecurity professional would expect to see __ 
+* Metricbeat allows for the collection of ___   For example, one would exect to see __ 
+
 - _TODO: In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc._
 
 ### Using the Playbook
-In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
+* In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
-SSH into the control node and follow the steps below:
-- Copy the _____ file to _____.
-- Update the _____ file to include...
-- Run the playbook, and navigate to ____ to check that the installation worked as expected.
+### SSH into the control node and follow the steps below:
+   1. Copy the _____ file to _____.
+   1. Update the _____ file to include...
+   1. Run the playbook, and navigate to ____ to check that the installation worked as expected.
 
 _TODO: Answer the following questions to fill in the blanks:_
 - _Which file is the playbook? Where do you copy it?_
