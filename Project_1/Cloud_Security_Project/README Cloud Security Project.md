@@ -36,9 +36,13 @@ Load balancers protect **availablity**
 * Metricbeat records metrics from the operating system and from services running on a server.
 
 The configuration details of each machine may be found below.
-_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
-
-
+         
+| Name         | Function                           | IP Address                                       | Operating System  |
+|--------------|------------------------------------|--------------------------------------------------|-------------------|
+| Jump Box     | Gateway                            | Private IP: 10.0.0.4<br>Public  IP: 20.5.127.140 | Linux             |
+| Web 1        | Web Server                         | Private IP: 10.0.0.5                             | Linux             |
+| Web 2        | Web Server                         | Private IP: 10.0.0.6                             | Linux             |
+| Elk Server   | Monitors Web 1 & Web 2 Web Servers | Private IP: 10.1.0.4<br>Public  IP  20.37.0.17   | Linux             |
 
 
 
@@ -61,8 +65,8 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 
 ### Elk Configuration
 
-Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
-- _TODO: What is the main advantage of automating configuration with Ansible?_
+**Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because __
+The main advantage of automating configuration with Ansible**
 
 The playbook implements the following tasks:
 - _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
@@ -85,10 +89,15 @@ The following screenshot displays the result of running `docker ps` after succes
 
 **These Beats allow us to collect the following information from each machine:
 
-* Filebeat allows for the collection of ________ . For exmpample, the cybersecurity professional would expect to see __ 
-* Metricbeat allows for the collection of ___   For example, one would exect to see __ 
+* Filebeat collects data about specific files on remote machines. For example, Filebeat collects Apache logs, Microsoft Azure tools or MySQL databases. 
 
-- _TODO: In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc._
+* Metricbeat collects metrics for remote machines. For example, one would expect to see the following for the given VMs.
+  * CPU Usage
+  * Load
+  * Memory Usage
+  * Inbound RX -Displays the amount of received data (kbits/s)
+  * Outbound TX -Displays the amount of transferred data) (kbits/s)
+  
 
 ### Using the Playbook
 * In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
@@ -98,11 +107,12 @@ The following screenshot displays the result of running `docker ps` after succes
    1. Update the _____ file to include...
    1. Run the playbook, and navigate to ____ to check that the installation worked as expected.
 
-_TODO: Answer the following questions to fill in the blanks:_
+
 - _Which file is the playbook? Where do you copy it?_
+- 
 - _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
 
-* Navigate to the Kibana URL with the format of http://[your.VM.IP]:5601/app/kibana in order to check that the ELK server is running
+* Navigate to the Kibana URL with the format of:[http://[your.VM.IP]:5601/app/kibana] order to check that the ELK sever is running.
  
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
