@@ -21,9 +21,9 @@ This document contains the following details:
 
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
-Load balancing ensures that the application will be highly "available," in addition to restricting "overload" to the network.
+Load balancing ensures that the application will be highly *available*, in addition to restricting *overload* to the network.
 
-Load balancers protect "Availablity" 
+Load balancers protect *availablity* 
 
 The advantage of a jump box is that a jumpbox allows for the secure adminstration of web servers.  
 
