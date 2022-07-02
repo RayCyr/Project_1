@@ -8,28 +8,31 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
   - _TODO: Enter the playbook file._
 
-This document contains the following details:                                                                                                                1. Description of the Topology
+This document contains the following details
+1. Description of the Topology
 2. Access Policies
 3. ELK Configuration
-4. Beats in Use
-5. Machines Being Monitored
-6. How to Use the Ansible Build
+-Beats in Use
+-Machines Being Monitored
+4. How to Use the Ansible Build
 
 
 ### Description of the Topology
 
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
-
 Load balancing ensures that the application will be highly **available**, in addition to restricting **overload** to the network.
-
 Load balancers protect **availablity** 
 
+Jump Box
 The advantage of a jump box is that a jumpbox allows for the **secure adminstration of web servers.**  
 
+Elk Server
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the _____ and system _____.
 
+Filebeat
 Filebeat watches for changes to files and when the changes were done.
 
+Metric
 -Metricbeat records metrics from the operating system and from services running on a server.
 
 The configuration details of each machine may be found below.
