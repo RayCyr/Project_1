@@ -8,12 +8,12 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
   - _TODO: Enter the playbook file._
 
-This document contains the following details                                                                                                         Description of the Topologu
-Access Policies
-ELK Configuration
-Beats in Use
-Machines Being Monitored
-How to Use the Ansible Build
+This document contains the following details:                                                                                                                1. Description of the Topology
+2. Access Policies
+3. ELK Configuration
+4. Beats in Use
+5. Machines Being Monitored
+6. How to Use the Ansible Build
 
 
 ### Description of the Topology
