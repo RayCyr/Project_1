@@ -61,7 +61,15 @@ Machines within the network can only be accessed by the host machine; my compute
 
 - _TODO: Which machine did you allow to access your ELK VM? My personal computer with the IP address of 104.225.231.234
 
-A summary of the access policies in place can be found in the table below.
+**A summary of the access policies in place can be found in the table below.**
+
+| **Name**      | **Publicly Accessible** | **Allowed IP Addresses**                     |
+|---------------|-------------------------|----------------------------------------------|
+| Jump Box      | Yes                     | IP: 104.255.231.234                          |
+| Web Server 1  | No                      | IP: 10.1.0.4                                 |
+| Web Server 2  | No                      | IP: 10.1.0.4                                 |
+| Elk Server    | No                      | IP: 10.0.0.4<br>IP: 10.0.0.5<br>IP: 10.0.0.6 |
+
 
 ### Elk Configuration
 
