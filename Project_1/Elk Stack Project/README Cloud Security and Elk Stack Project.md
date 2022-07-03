@@ -28,7 +28,7 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 
 **Jump box** 
 
-* An advantage of a jumpbox is that a jumpbox allows for the secure adminstration of web servers.  
+* An advantage of a jumpbox is that a jumpbox *allows for the secure adminstration of web servers.*  
 
 **Elk Server** 
 * Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the _____ and system _____.
