@@ -4,7 +4,7 @@ The files in this repository were used to configure the network depicted below.
 
 ![Cloud Security_Elk Stack Network_Diagram](https://github.com/RayCyr/Project_1/blob/main/Project_1/Elk%20Stack%20Project/Cloud%20Security_Elk%20Stack%20Network_Diagram/Cloud%20Sec%20Network%20Diagram.drawio.png)
 
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the Playbook file may be used to install only certain pieces of it, such as Filebeat.
 
   - _TODO: Enter the playbook file._
 
@@ -54,28 +54,24 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 * The machines on the internal network are not exposed to the public Internet. 
 
 * Only the "Jump Box Provisioner" machine can accept connections from the Internet. 
-  Access to this machine is only allowed from the following IP addresses:104.225.231.234
+* Access to this machine is only allowed from the *IP addresses of the local host through SSH connection.*
+    * A SSH key had to be generated from the local host and allowed access in the Jump Box Provisoner.
+    * The IP address of the local host for this project was 104.225.231.234.
+![image](https://user-images.githubusercontent.com/98436629/177043139-7925236b-c794-458a-b371-75c2d838c09e.png)
 
+* Machines within the network can only be accessed by the *local host* machine.
 
-Machines within the network can only be accessed by the host machine; my computer.
-
-- _TODO: Which machine did you allow to access your ELK VM? My personal computer with the IP address of 104.225.231.234
+The *local host IP: 104.225.231.234* via SSH was allowed to access the ELK VM
 
 **A summary of the access policies in place can be found in the table below.**
 
-| **Name**      | **Publicly Accessible** | **Allowed IP Addresses**                     |
-|---------------|-------------------------|----------------------------------------------|
-| Jump Box      | Yes                     | IP: 104.255.231.234                          |
-| Web Server 1  | No                      | IP: 10.1.0.4                                 |
-| Web Server 2  | No                      | IP: 10.1.0.4                                 |
-| Elk Server    | No                      | IP: 10.0.0.4<br>IP: 10.0.0.5<br>IP: 10.0.0.6 |
 
 
 ### Elk Configuration
 
-* Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous, because there wer more than one VMs that needed to be configured.
+* Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous, because.....(Need to find answer for this one)
  
-* The main advantage of automating configuration with Ansible is that one module can be created and delployed to multiple VMs rather than having to configure each one seperately.
+* The main advantage of automating configuration with Ansible is that one module can be created and modified as needed and delployed to multiple VMs rather than having to configure each one seperately.
 
 The playbook implements the following tasks:
 - _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
