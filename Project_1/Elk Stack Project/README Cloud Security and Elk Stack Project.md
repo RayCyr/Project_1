@@ -4,7 +4,20 @@ The files in this repository were used to configure the network depicted below.
 
 ![Cloud Security_Elk Stack Network_Diagram](https://github.com/RayCyr/Project_1/blob/main/Project_1/Elk%20Stack%20Project/Cloud%20Security_Elk%20Stack%20Network_Diagram/Cloud%20Sec%20Network%20Diagram.drawio.png)
 
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the Playbook file may be used to install only certain pieces of it, such as Filebeat.
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. 
+
+**Connect files that have been tested and used to generate a live ElK deployment**
+
+Alternatively, select portions of the *etc/ansible* file may be used to install only certain pieces of it, such as Filebeat.
+
+insert (screenshot for etc/ansible)
+
+
+
+
+
+
+
 
   - _TODO: Enter the playbook file._
 
@@ -22,7 +35,6 @@ These files have been tested and used to generate a live ELK deployment on Azure
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
 **Load Balancing** 
-* Ensures that the application will be highly available. 
 * Restricts overload to the network.
 * Load balancers protect availablity. 
 
@@ -55,7 +67,9 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 
 * Only the "Jump Box Provisioner" machine can accept connections from the Internet. 
 * Access to this machine is only allowed from the *IP addresses of the local host through SSH connection.*
-    * A SSH key had to be generated from the local host and allowed access in the Jump Box Provisoner.
+    * A SSH key had to be generated from the local host and allowed access into the Jump Box Provisoner.
+        * Allowing a server to use password authentication for SSH is insecure, because the password can be brute forced.
+        * Only use cryptographic SSH keys.
     * The IP address of the local host for this project was 104.225.231.234.
 ![image](https://user-images.githubusercontent.com/98436629/177043139-7925236b-c794-458a-b371-75c2d838c09e.png)
 
