@@ -10,7 +10,8 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
 Alternatively, select portions of the *etc/ansible* file may be used to install only certain pieces of it, such as Filebeat.
 
-insert (screenshot for etc/ansible)
+(screenshot for etc/ansible)
+![Ansible]
 
 
 
