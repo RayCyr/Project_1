@@ -3,7 +3,7 @@
 The files in this repository were used to configure the network depicted below.
 
 
-![Cloud Security ELK Diagram](https://github.com/RayCyr/Project_1/blob/main/Project_1/Elk%20Stack%20Project/Cloud%20Security_Elk%20Stack%20Network_Diagram/Cloud%20Security%20ELK%20Diagram.drawio.pdf)
+![Cloud Security_Elk Stack Network_Diagram](https://github.com/RayCyr/Project_1/blob/main/Project_1/Elk%20Stack%20Project/Cloud%20Security_Elk%20Stack%20Network_Diagram/Cloud%20Security%20ELK%20Diagram.drawio.pdf)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. 
 
@@ -11,7 +11,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
 Alternatively, select portions of the *etc/ansible* file may be used to install only certain pieces of it, such as Filebeat.
 
-![Ansible]()
+![Ansible](https://github.com/RayCyr/Project_1/blob/main/Project_1/Elk%20Stack%20Project/Ansible/Ansible.PNG)
 
 
 
