@@ -3,7 +3,7 @@
 The files in this repository were used to configure the network depicted below.
 
 
-![Project_1/Elk Stack Project/Cloud Security Elk Stack Network Diagram/Cloud Security Elk Stack Network Diagram.pdf]()
+![](https://github.com/RayCyr/Project_1/blob/main/Project_1/Elk%20Stack%20Project/Cloud%20Security%20Elk%20Stack%20Network%20Diagram/Cloud%20Security%20ELK%20Diagram.drawio.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. 
 
