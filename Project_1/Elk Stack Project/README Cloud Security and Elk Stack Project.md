@@ -4,17 +4,17 @@ The files in this repository were used to configure the network depicted below.
 
 ![](https://github.com/RayCyr/Project_1/blob/main/Project_1/Elk%20Stack%20Project/Cloud%20Security%20Elk%20Stack%20Network%20Diagram/Cloud%20Security%20ELK%20Diagram.drawio.png)
 
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above.Alternatively, select portions of the *etc/ansible* file may be used to install only certain pieces of it, such as Filebeat. 
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above.Alternatively, select portions of the */etc/ansible* file may be used to install only certain pieces of it, such as Filebeat. 
 
-*[Ansible](https://github.com/RayCyr/Project_1/blob/main/Project_1/Elk%20Stack%20Project/Ansible/Ansible.PNG)*
+*1) [Ansible](https://github.com/RayCyr/Project_1/blob/main/Project_1/Elk%20Stack%20Project/Ansible/Ansible.PNG)*
 
-*[Ansible Configuration](https://github.com/RayCyr/Project_1/blob/main/Project_1/Elk%20Stack%20Project/Configuration%20Files/Ansible%20Configuration%20File.pdf)*
+*2) [Ansible Configuration](https://github.com/RayCyr/Project_1/blob/main/Project_1/Elk%20Stack%20Project/Configuration%20Files/Ansible%20Configuration%20File.pdf)*
 
-*[Ansible Hosts Configuration](https://github.com/RayCyr/Project_1/blob/main/Project_1/Elk%20Stack%20Project/Configuration%20Files/Ansible%20Hosts%20Configuration%20File.pdf)*
+*3) [Ansible Hosts Configuration](https://github.com/RayCyr/Project_1/blob/main/Project_1/Elk%20Stack%20Project/Configuration%20Files/Ansible%20Hosts%20Configuration%20File.pdf)*
 
-*[Playbook (Pentest.yml) ](https://github.com/RayCyr/Project_1/blob/main/Project_1/Elk%20Stack%20Project/Playbooks/Playbook%20(Pentest.yml%20).pdf)*
+*4) [Playbook (Pentest.yml) ](https://github.com/RayCyr/Project_1/blob/main/Project_1/Elk%20Stack%20Project/Playbooks/Playbook%20(Pentest.yml%20).pdf)*
 
-*[Playbook (install-elk.yml)](https://github.com/RayCyr/Project_1/blob/main/Project_1/Elk%20Stack%20Project/Playbooks/Playbook%20(install-elk.yml).pdf)*
+*5) [Playbook (install-elk.yml)](https://github.com/RayCyr/Project_1/blob/main/Project_1/Elk%20Stack%20Project/Playbooks/Playbook%20(install-elk.yml).pdf)*
 
 **This document contains the following details:**
 * Description of the Topology
@@ -28,16 +28,15 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
-####Load Balancing** 
-    * Restricts overload to the network.
-    * Load balancers protect availablity. 
+** Load Balancing** 
+* Restricts overload to the network
+* Ensures availibity
 
 **Jump box** 
+* An advantage of a jumpbox is that a jumpbox *allows for the secure adminstration of web servers*.  
 
-* An advantage of a jumpbox is that a jumpbox *allows for the secure adminstration of web servers.*  
-
-**Elk Server** 
-* Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the _____ and system _____.
+**ELK Server** 
+* Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the *files and system metrics*.
 
 **Filebeat** 
 * Filebeat watches for changes to files and when the changes were done.
@@ -59,20 +58,20 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 
 * The machines on the internal network are not exposed to the public Internet. 
 
-* Only the "Jump Box Provisioner" machine can accept connections from the Internet. 
+* Only the *Jump Box Provisioner* machine can accept connections from the Internet. 
 * Access to this machine is only allowed from the *IP addresses of the local host through SSH connection.*
     * A SSH key had to be generated from the local host and allowed access into the Jump Box Provisoner.
         * Allowing a server to use password authentication for SSH is insecure, because the password can be brute forced.
         * Only use cryptographic SSH keys.
-    * The IP address of the local host for this project was 104.225.231.234.
+    * The IP address of the local host for this project was *104.225.231.234*.
 ![image](https://user-images.githubusercontent.com/98436629/177043139-7925236b-c794-458a-b371-75c2d838c09e.png)
 
-* Machines within the network can only be accessed by the *local host* machine.
+* Machines within the network can only be accessed by the *Jummp Box Provisioner* machine.
 
-The *local host IP: 104.225.231.234* via SSH was allowed to access the ELK VM
+The *Jump Box Provisioner IP: 10.0.0.4* is allowed to access the ELK VM
 
 **A summary of the access policies in place can be found in the table below.**
-
+**STILL NEED TO PUT TABLE HERE**
 
 
 ### Elk Configuration
