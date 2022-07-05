@@ -2,10 +2,11 @@
 
 The files in this repository were used to configure the network depicted below.
 
-
 ![](https://github.com/RayCyr/Project_1/blob/main/Project_1/Elk%20Stack%20Project/Cloud%20Security%20Elk%20Stack%20Network%20Diagram/Cloud%20Security%20ELK%20Diagram.drawio.png)
 
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. 
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above.Alternatively, select portions of the *etc/ansible* file may be used to install only certain pieces of it, such as Filebeat. 
+
+*[Ansible](https://github.com/RayCyr/Project_1/blob/main/Project_1/Elk%20Stack%20Project/Ansible/Ansible.PNG)*
 
 *[Ansible Configuration](https://github.com/RayCyr/Project_1/blob/main/Project_1/Elk%20Stack%20Project/Configuration%20Files/Ansible%20Configuration%20File.pdf)*
 
@@ -15,29 +16,6 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
 *[Playbook (install-elk.yml)](https://github.com/RayCyr/Project_1/blob/main/Project_1/Elk%20Stack%20Project/Playbooks/Playbook%20(install-elk.yml).pdf)*
 
-
-
-
-**Connect files that have been tested and used to generate a live ElK deployment**
-
-Alternatively, select portions of the *etc/ansible* file may be used to install only certain pieces of it, such as Filebeat.
-
-![Ansible](https://github.com/RayCyr/Project_1/blob/main/Project_1/Elk%20Stack%20Project/Ansible/Ansible.PNG)
-
-
-
-
-
-
-
-
-
-
-
-
-
-  - _TODO: Enter the playbook file._
-
 **This document contains the following details:**
 * Description of the Topology
 * Access Policies
@@ -46,14 +24,13 @@ Alternatively, select portions of the *etc/ansible* file may be used to install 
   * Machines Being Monitored
 * How to Use the Ansible Build
 
-
 ### Description of the Topology
 
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
-**Load Balancing** 
-* Restricts overload to the network.
-* Load balancers protect availablity. 
+####Load Balancing** 
+    * Restricts overload to the network.
+    * Load balancers protect availablity. 
 
 **Jump box** 
 
@@ -105,7 +82,7 @@ The *local host IP: 104.225.231.234* via SSH was allowed to access the ELK VM
 * The main advantage of automating configuration with Ansible is that one module can be created and modified as needed and delployed to multiple VMs rather than having to configure each one seperately.
 
 The playbook implements the following tasks:
-- _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
+- _**TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._**
 - ...
 - ...
 
