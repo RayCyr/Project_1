@@ -2,9 +2,8 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![]*
+![](https://github.com/RayCyr/Project_1/blob/main/Project_1/Elk%20Stack%20Project/Cloud%20Security%20Elk%20Stack%20Network%20Diagram/Cloud%20Security%20ELK%20Diagram.drawio.png)
 
-![](https://github.com/RayCyr/Project_1/blob/main/Project_1/Elk%20Stack%20Project/Docker_Elk/Confirm%20Docker_Elk_.PNG)*
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above.Alternatively, select portions of the */etc/ansible* file may be used to install only certain pieces of it, such as Filebeat. 
 
@@ -48,12 +47,12 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 
 **The configuration details of each machine may be found below.**
 
-| **Name**     | **Function**                       | **IP Address**                                   | **Operating System**  |
-|--------------|------------------------------------|--------------------------------------------------|-----------------------|
-| Jump Box     | Gateway                            | Private IP: 10.0.0.4<br>Public  IP: 20.5.127.140 | Linux                 |
-| Web 1        | Web Server                         | Private IP: 10.0.0.5                             | Linux                 |
-| Web 2        | Web Server                         | Private IP: 10.0.0.6                             | Linux                 |
-| Elk Server   | Monitors Web 1 & Web 2 Web Servers | Private IP: 10.1.0.4<br>Public  IP  20.37.0.17   | Linux                 |
+| **Name**     | **Function**                       | **IP Address**                                      | **Operating System**  |
+|--------------|------------------------------------|-----------------------------------------------------|-----------------------|
+| Jump Box     | Gateway                            | Private IP: 10.0.0.4<br>Public  IP: 20.5.127.140    | Linux                 |
+| Web 1        | Web Server                         | Private IP: 10.0.0.5                                | Linux                 |
+| Web 2        | Web Server                         | Private IP: 10.0.0.6                                | Linux                 |
+| Elk Server   | Monitors Web 1 & Web 2 Web Servers | Private IP: 10.1.0.4<br>Public IP 20.213.250.92:5601| Linux                 |
 
 
 ### Access Policies
