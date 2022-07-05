@@ -81,16 +81,15 @@ The *Jump Box Provisioner IP: 10.0.0.4* is allowed to access the ELK VM
  
 **The playbook implements the following tasks:**
 
-* 1) Install Docker
-* 2) Install Python 3
-* 3) Use more memory by setting the vm.max_map_count value to 262144
-* 4) Download and launch a docker elk container with name elk and image sebp/elk:761
-* 5) Enable sevice docker on reboot. 
+* 1 Install Docker
+* 2 Install Python 3
+* 3 Use more memory by setting the vm.max_map_count value to 262144
+* 4 Download and launch a docker elk container with name elk and image sebp/elk:761
+* 5 Enable sevice docker on reboot. 
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
 ![](https://github.com/RayCyr/Project_1/blob/main/Project_1/Elk%20Stack%20Project/Docker_Elk/Confirm%20Docker_Elk_.PNG)*
-
 
 
 ### Target Machines & Beats
