@@ -109,7 +109,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-*![Confirm Docker_Elk_.PNG]()*
+![](https://github.com/RayCyr/Project_1/blob/main/Project_1/Elk%20Stack%20Project/Docker_Elk/Confirm%20Docker_Elk_.PNG)*
 
 
 
