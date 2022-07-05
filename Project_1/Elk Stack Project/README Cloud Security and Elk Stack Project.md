@@ -13,6 +13,8 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
 *[Playbook (Pentest.yml) ](https://github.com/RayCyr/Project_1/blob/main/Project_1/Elk%20Stack%20Project/Playbooks/Playbook%20(Pentest.yml%20).pdf)*
 
+*[Playbook (install-elk.yml)]
+
 
 
 
