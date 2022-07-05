@@ -8,7 +8,10 @@ The files in this repository were used to configure the network depicted below.
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. 
 
 *[Ansible Configuration](https://github.com/RayCyr/Project_1/blob/main/Project_1/Elk%20Stack%20Project/Configuration%20Files/Ansible%20Configuration%20File.pdf)*
+
 *[Ansible Hosts Configuration](https://github.com/RayCyr/Project_1/blob/main/Project_1/Elk%20Stack%20Project/Configuration%20Files/Ansible%20Hosts%20Configuration%20File.pdf)*
+
+
 
 **Connect files that have been tested and used to generate a live ElK deployment**
 
