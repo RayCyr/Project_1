@@ -113,14 +113,21 @@ The following screenshot displays the result of running `docker ps` after succes
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
-- Copy the _____ file to _____.
+* Copy the *Configuration file to Web1 & Web2 for each Filebeat and Metricbeat to /etc/filebeat/filebeat.yml and the same for metricbeat*
 - Update the _____ file to include...
 - Run the playbook, and navigate to ____ to check that the installation worked as expected.
 
 _TODO: Answer the following questions to fill in the blanks:_
 - _Which file is the playbook? Where do you copy it?_
-- _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
-In order to check that the ELK server is running, 
+- _Which file do you update to make Ansible run the playbook on a specific machine? 
 - 
+- How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
+- 
+**To verify that the ELK server was running, navigation to the URL below was necessary.** 
 
+* **Example format:** http://[VM.ip/:5601/app/kibana
+
+* **Actual for this project:** http://20.213.250.92/:5601/app/kibana 
+
+ 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
