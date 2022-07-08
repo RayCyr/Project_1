@@ -80,7 +80,8 @@ The *Jump Box Provisioner IP: 10.0.0.4* is allowed to access the ELK VM
 | Elk Server    | Yes<br><br>No                                                | IP: 104.225.231.234<br><br>IP: 10.0.0.4                                  |
 
 **Additonal Newtwork Security Rules can be found below:
-*1) [Jump Box Provisioner Sec Rules](https://github.com/RayCyr/Project_1/blob/main/Project_1/Elk%20Stack%20Project/Ansible/Ansible.PNG)*
+
+*1) [Jump Box Provisioner Sec Rules](https://github.com/RayCyr/Project_1/blob/main/Project_1/Elk%20Stack%20Project/Network%20Security%20Rules/Jump%20Box%20Provisioner%20Sec%20Rules.PNG)*
 
 
 
