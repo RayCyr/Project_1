@@ -129,7 +129,19 @@ In order to use the playbook, you will need to have an Ansible control node alre
 SSH into the control node and follow the steps below:
 * Copy the *Configuration file to Web1 & Web2 for each Filebeat and Metricbeat to /etc/filebeat/filebeat.yml and the same for metricbeat*
 - Update the _____ file to include...
-- Run the playbook, and navigate to ____ to check that the installation worked as expected.
+
+
+**These steps to were needed to verify that each beat (filebeat/metricbeat) were installed and worked as expected**
+1) Ran the playbook
+2) Navigated to the Filebeat *installation page on the ELK server GUI*
+3) On the same page, scrolled to Module Status 
+4) Clicked Check Data
+
+**Results for each BEAT are below:
+
+
+
+- 
 
 _TODO: Answer the following questions to fill in the blanks:_
 - _Which file is the playbook? Where do you copy it?_
