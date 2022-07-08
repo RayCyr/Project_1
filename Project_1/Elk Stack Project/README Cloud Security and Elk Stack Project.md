@@ -72,7 +72,16 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 The *Jump Box Provisioner IP: 10.0.0.4* is allowed to access the ELK VM
 
 **A summary of the access policies in place can be found in the table below.**
-**STILL NEED TO PUT TABLE HERE**
+| **Name**      | **Publicly Accessible**                                      | **Allowed IP Addresses**                                                 |
+|---------------|--------------------------------------------------------------|--------------------------------------------------------------------------|
+| Jump Box      | Yes<br>                                                      | IP: 104.255.231.234 (SSH)                                                |
+| Web Server 1  | Yes<br><br>No<br><br>No- This is the IP of the load balancer | IP: 104.255.231.234 (SSH)<br><br>IP: 10.1.0.4<br><br>IP: 20.211.36.190   |
+| Web Server 2  | Yes<br><br>No<br><br>No- This is the IP of the load balancer | IP: 104.255.231.234 (SSH)<br><br>IP: 10.1.0.4  <br><br>IP: 20.211.36.190 |
+| Elk Server    | Yes<br><br>No                                                | IP: 104.225.231.234<br><br>IP: 10.0.0.4                                  |
+
+**Additonal Newtwork Security Rules can be found below:
+*1) [Jump Box Provisioner Sec Rules](https://github.com/RayCyr/Project_1/blob/main/Project_1/Elk%20Stack%20Project/Ansible/Ansible.PNG)*
+
 
 
 ### Elk Configuration
