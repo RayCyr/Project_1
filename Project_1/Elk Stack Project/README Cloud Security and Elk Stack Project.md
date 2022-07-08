@@ -83,6 +83,7 @@ The *Jump Box Provisioner IP: 10.0.0.4* is allowed to access the ELK VM
 
 *1) [Jump Box Provisioner Sec Rules](https://github.com/RayCyr/Project_1/blob/main/Project_1/Elk%20Stack%20Project/Network%20Security%20Rules/Jump%20Box%20Provisioner%20Sec%20Rules.PNG)*
 
+*2) [Web 1 Sec Rules](https://github.com/RayCyr/Project_1/blob/main/Project_1/Elk%20Stack%20Project/Network%20Security%20Rules/Web%201%20Sec%20Rules.PNG)*
 
 
 ### Elk Configuration
