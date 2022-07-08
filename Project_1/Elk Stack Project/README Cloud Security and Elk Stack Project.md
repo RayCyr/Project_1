@@ -138,9 +138,10 @@ SSH into the control node and follow the steps below:
 4) Clicked Check Data
 
 **Results for each BEAT are below:
+
 [FileBeat](https://github.com/RayCyr/Project_1/blob/main/Project_1/Elk%20Stack%20Project/Beats%20Verification/FileBeat.PNG)
 
-[MetricBeat] 
+[MetricBeat](https://github.com/RayCyr/Project_1/blob/main/Project_1/Elk%20Stack%20Project/Beats%20Verification/MetricBeat_Day2.PNG)
 
 
 - 
