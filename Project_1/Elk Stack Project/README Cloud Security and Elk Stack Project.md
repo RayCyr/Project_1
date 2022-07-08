@@ -85,7 +85,9 @@ The *Jump Box Provisioner IP: 10.0.0.4* is allowed to access the ELK VM
 
 *2) [Web 1 Sec Rules](https://github.com/RayCyr/Project_1/blob/main/Project_1/Elk%20Stack%20Project/Network%20Security%20Rules/Web%201%20Sec%20Rules.PNG)*
 
+*3) [Web 2 Sec Rules](https://github.com/RayCyr/Project_1/blob/main/Project_1/Elk%20Stack%20Project/Network%20Security%20Rules/Web%202%20Sec%20Rules.PNG)*
 
+*4) [Elk Server Sec Rules]()*
 ### Elk Configuration
 
 * Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous, becacasue changes can be made to a playbook and delployed out to many other servers rather than having to configure each server seperately. 
