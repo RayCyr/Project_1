@@ -158,6 +158,6 @@ SSH into the control node and follow the steps below:
 
  
 As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
-![image](https://user-images.githubusercontent.com/98436629/178086278-c4074277-0703-406d-a18d-0feacbee8946.png)
+
 
 
