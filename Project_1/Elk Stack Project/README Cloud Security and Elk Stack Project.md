@@ -128,7 +128,7 @@ In order to use the playbook, you will need to have an Ansible control node alre
 
 SSH into the control node and follow the steps below:
 * Copy the *Configuration file to Web1 & Web2 for each Filebeat and Metricbeat to /etc/filebeat/filebeat.yml and the same for metricbeat*
-- Update the _____ file to include...
+- Update the **Playbook file** to include:
 
 
 **These steps to were needed to verify that each beat (filebeat/metricbeat) were installed and worked as expected**
@@ -143,11 +143,12 @@ SSH into the control node and follow the steps below:
 
 [MetricBeat](https://github.com/RayCyr/Project_1/blob/main/Project_1/Elk%20Stack%20Project/Beats%20Verification/MetricBeat_Day2.PNG)
 
-_TODO: Answer the following questions to fill in the blanks:_
-- _Which file is the playbook? Where do you copy it?_
-- _Which file do you update to make Ansible run the playbook on a specific machine? 
-- 
-- How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
+
+* The *configuration file* needs to be updated to make Ansible run a playbook on a specific machine. 
+
+* In oder to specify which machine to install the ELK server the *playbook file should have **hosts** set to ELK*  
+
+* In the Filebeat playbook **hosts** should be set to *webservers*
 - 
 **To verify that the ELK server was running, navigation to the URL below was necessary.** 
 
@@ -156,4 +157,7 @@ _TODO: Answer the following questions to fill in the blanks:_
 * **Actual for this project:** http://20.213.250.92/:5601/app/kibana 
 
  
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
+As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
+![image](https://user-images.githubusercontent.com/98436629/178086278-c4074277-0703-406d-a18d-0feacbee8946.png)
+
+
