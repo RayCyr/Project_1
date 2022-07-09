@@ -137,7 +137,7 @@ SSH into the control node and follow the steps below:
 3) On the same page, scrolled to Module Status 
 4) Clicked Check Data
 
-**Results for each BEAT are below:
+**Results for each BEAT:**
 
 [FileBeat](https://github.com/RayCyr/Project_1/blob/main/Project_1/Elk%20Stack%20Project/Beats%20Verification/FileBeat.PNG)
 
