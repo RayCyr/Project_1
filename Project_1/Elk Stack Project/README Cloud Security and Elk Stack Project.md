@@ -143,9 +143,6 @@ SSH into the control node and follow the steps below:
 
 [MetricBeat](https://github.com/RayCyr/Project_1/blob/main/Project_1/Elk%20Stack%20Project/Beats%20Verification/MetricBeat_Day2.PNG)
 
-
-- 
-
 _TODO: Answer the following questions to fill in the blanks:_
 - _Which file is the playbook? Where do you copy it?_
 - _Which file do you update to make Ansible run the playbook on a specific machine? 
